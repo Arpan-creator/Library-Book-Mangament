@@ -1,0 +1,302 @@
+[
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141040349-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780142437247-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780199232765-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780140449136-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780142437209-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780140268867-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780451419439-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780143035008-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780374528379-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439563-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439846-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439471-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780140448955-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Les Fleurs du mal",
+    "author": "Charles Baudelaire",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780140445159-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780060934347-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Ulysses",
+    "author": "James Joyce",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780199535675-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780140449126-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Iliad",
+    "author": "Homer",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780140275360-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439601-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439663-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780140449263-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Alice’s Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439761-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780142437179-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780143105428-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780060883287-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780679720201-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780805209990-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141441672-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780743297332-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780679723165-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9781400033416-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780385333849-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Invisible Man",
+    "author": "Ralph Ellison",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780679732761-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9781451626650-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780143039433-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "East of Eden",
+    "author": "John Steinbeck",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780142000656-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "On the Road",
+    "author": "Jack Kerouac",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780141182674-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "Their Eyes Were Watching God",
+    "author": "Zora Neale Hurston",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780061120060-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780060837020-L.jpg",
+    "availability": true
+  },
+  {
+    "title": "The Color Purple",
+    "author": "Alice Walker",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780156028356-L.jpg",
+    "availability": true
+  }
+]

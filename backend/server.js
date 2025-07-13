@@ -24,7 +24,8 @@ mongoose.connect(process.env.MONGO_URI)
 // CORS setup
 // You can specify multiple allowed origins here
 const allowedOrigins = [
-  "http://localhost:5173",            // your local frontend dev URL
+  "http://localhost:5173",
+  "https://preeminent-kitsune-667ddb.netlify.app",            // your local frontend dev URL
   process.env.FRONTEND_URL || "","*"     // your deployed frontend URL (set after deployment)
 ];
 

@@ -1,44 +1,55 @@
-const express=require('express')
-const bodyParser=require('body-parser')
-const mongoose =require('mongoose')
+const express = require('express');
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
-const cors=require('cors')
-// const authMiddleware = require("./middleware/authMiddleware");
-const authRoutes=require("./routes/authRoutes")
-const allBooksRoute=require("./routes/allBooksRoute")
-const getMyBooks=require("./routes/myBooksRoute");
+const cors = require('cors');
+
+const authRoutes = require("./routes/authRoutes");
+const allBooksRoute = require("./routes/allBooksRoute");
+const getMyBooks = require("./routes/myBooksRoute");
 const authMiddleware = require('./middleware/authMiddleware');
 
-require('dotenv').config()
+require('dotenv').config();
 
-const app=express()
-app.use(bodyParser.json()) 
-app.use(cookieParser()); 
+const app = express();
 
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
-.then(() => console.log("Connected to local MongoDB"))
-.catch(err => console.error("Connection error:", err));
+app.use(bodyParser.json());
+app.use(cookieParser());
 
+// MongoDB connection
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log("Connected to MongoDB"))
+  .catch(err => console.error("Connection error:", err));
+
+// CORS setup
+// You can specify multiple allowed origins here
+const allowedOrigins = [
+  "http://localhost:5173",            // your local frontend dev URL
+  process.env.FRONTEND_URL || "","*"     // your deployed frontend URL (set after deployment)
+];
+
+
+
+// Filter requests based on origin
 app.use(cors({
-  origin: "http://localhost:5173", // your frontend
-  credentials: true
+  origin: function(origin, callback){
+    // Allow requests with no origin like Postman or curl
+    if(!origin) return callback(null, true);
+    if(allowedOrigins.indexOf(origin) === -1){
+      const msg = `The CORS policy for this site does not allow access from the specified Origin: ${origin}`;
+      return callback(new Error(msg), false);
+    }
+    return callback(null, true);
+  },
+  credentials: true,
 }));
 
+// Routes
+app.use('/api/auth', authRoutes);
+app.use('/api', allBooksRoute);
+app.use('/api', authMiddleware, getMyBooks);
 
-app.use('/api/auth',authRoutes)
-
-app.use('/api',allBooksRoute)
-
-app.use('/api',authMiddleware, getMyBooks)
-
-// app.use('/api/mybooks',authMiddleware, getMyBooks)
-
-
-
-
-app.listen(3000,()=>{
-    console.log("Server running on http://localhost:3000")
-})
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
